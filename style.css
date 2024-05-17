@@ -2,9 +2,48 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 body {
+    display: flex;
+    justify-content: center;
+
     background-color: #1e233f;
+    color: #fff;
     text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    
+}
+
+form  {
+    max-width: 300px;
+
+    margin: 32px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+
+    label {
+        margin-top: 8px;
+    }
+
+    
+}
+
+input, textarea {
+    padding: 8px;
+    background-color: transparent;
+    border: 2px solid #8593ff;
+    border-bottom: 3px solid #fff;
+
+    color: #fff;
 }

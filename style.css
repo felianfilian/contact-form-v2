@@ -49,13 +49,15 @@ input, textarea {
 }
 
 input[type=submit] {
-    background-color: #0055ff;
+    background-color: #a05314;
     margin: 16px 0 0 0;
     padding: 8px 16px;
+    border: 2px solid #fff;
     border-radius: 8px;
-    color: #fff;
+    color: #ffffff;
 }
 
 input[type=submit]:hover {
-    background-color: #8593ff;
+    background-color: #ffffff;
+    color: #000;
 }

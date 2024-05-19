@@ -1,6 +1,6 @@
 <?php
 $name = $_POST['name'];
-$mail = $_POST['mail'];
+$mail = $_POST['email'];
 $message = $_POST['message'];
 
 $mailHeader = "From:".$name."<".$mail.">\r\n";

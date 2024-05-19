@@ -1,67 +1,79 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    background-color: #1e233f;
-    color: #fff;
-    text-align: center;
+  background-color: #1e233f;
+  color: #fff;
+  text-align: center;
 }
 
 .container {
-    max-width: 1200px;
-    
+  max-width: 1200px;
 }
 
-form  {
-    max-width: 300px;
+form {
+  max-width: 300px;
 
-    margin: 32px 0 0 0;
+  margin: 32px 0 0 0;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 
-
-    label {
-        margin-top: 8px;
-    }
-
-    
+  label {
+    margin-top: 8px;
+  }
 }
 
-input, textarea {
-    padding: 8px;
-    background-color: transparent;
-    border: 2px solid #8593ff;
-    border-bottom: 3px solid #fff;
+input,
+textarea {
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid #8593ff;
+  border-bottom: 3px solid #fff;
 
-    color: #fff;
+  color: #fff;
 }
 
-input[type=submit] {
-    background-color: #a05314;
-    margin: 16px 0 0 0;
-    padding: 8px 16px;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    color: #ffffff;
+input[type="submit"] {
+  background-color: #a05314;
+  margin: 16px 0 0 0;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: #ffffff;
 }
 
-input[type=submit]:hover {
-    background-color: #ffffff;
-    color: #000;
+input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #000;
 }
 
 p {
-    line-height: 1.5em;
+  line-height: 1.5em;
+}
+
+.btn-01 {
+  background-color: #a05314;
+  margin: 16px 0 0 0;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-01:hover {
+  background-color: #ffffff;
+  color: #000;
 }
